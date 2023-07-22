@@ -1,0 +1,10 @@
+#create a file
+a=open("sample.txt",'x')#x is to create a file
+a.close()#it is used for saving
+
+#to create a file on a specified location
+b=open(r"C:\Users\Swati\OneDrive\Desktop\AI & ML\textFile1.txt",'x')
+b.close()
+#r in the address of the file indicates raw data and tells the
+#compiler that it doesn't need to care about the in-built functions
+#including \t or \n...
