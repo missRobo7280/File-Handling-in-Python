@@ -1,0 +1,17 @@
+#various file modes
+#x -- to create a file
+#w -- to create a new file and to write into the file without
+#opening..even if the file doesn't exist  it creates a new file and
+#then pushes the data into the file
+#r -- to read the data in the file
+
+a=open("write.txt",'w')
+a.write("File handling in python\n")
+a.write("File can be created using the open() method")
+a.close()
+
+
+
+
+
+
