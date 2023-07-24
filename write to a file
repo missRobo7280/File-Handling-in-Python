@@ -9,7 +9,56 @@ a=open("write.txt",'w')
 a.write("File handling in python\n")
 a.write("File can be created using the open() method")
 a.close()
-
+### to write into multiple lines we use the [writelines()] command
+##s=['\nSwati\n','Priya\n','Jaiswal\n']
+##a.writelines(s)
+#f=a.read()
+#print(f)
+#it will read the data in single line
+# to do it in multiple lines
+# 1st method
+##f=a.readlines()
+##for i in f:
+##    print(i)
+#2nd method --taking list and appending contents to it
+##f=a.readlines()
+##z=[]
+##for i in f:
+##    z.append(i)
+##print(z)
+##a.close()
+a=open(r"C:\Users\Swati\OneDrive\Desktop\AI & ML\file_handling\data.csv",'r')
+s=a.readlines()
+d=[]
+for i in s:
+    d.append(i)
+a.close()
+##mh=[]
+##c_mh=0#count of mh students
+##p3=[]
+##c_p3=0# count of p3 students
+##a9=[]
+##c_a9=0# count of a9 students
+##for i in d:
+##    if 'mh' in i or "MH" in i:
+##        mh.append(i)
+##        c_mh+=1
+##    elif 'p3' in i or 'P3' in i:
+##        p3.append(i)
+##        c_p3+=1
+##    else:
+##        a9.append(i)
+##        c_a9+=1
+##print(c_mh)
+##print(c_p3)
+##print(c_a9)
+# to get the count of only the acoe cse students
+##c=0
+##for i in d:
+##    if i[2:4] in ["mh","MH"] and i[6:8]=="05":
+##        print(i)
+##        c+=1
+##print("acoe_cse:",c)
 
 
 
