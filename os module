@@ -7,6 +7,6 @@ os.mkdir(r"C:\Users\Swati\OneDrive\Desktop\AI & ML\OS_Module")
 #to delete a directory
 os.rmdir(r"C:\Users\Swati\OneDrive\Desktop\AI & ML\OS_Module")
 # to delete a file
-os.remove(r"C:\Users\Swati\OneDrive\Desktop\AI & ML\textFile1.txt"
+os.remove(r"C:\Users\Swati\OneDrive\Desktop\AI & ML\textFile1.txt")
 
 
